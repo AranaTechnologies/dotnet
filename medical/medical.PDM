@@ -1,0 +1,137 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\medical\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Text=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\Program Files\Common Files\System\ado\msado21.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+D:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\medical\medical.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\WINDOWS\system32\oleaut32.dll=Yes
+D:\WINDOWS\system32\olepro32.dll=Yes
+D:\WINDOWS\system32\asycfilt.dll=Yes
+D:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Common Files\System\ado\msado21.tlb=Yes
+D:\WINDOWS\system32\MSDATGRD.OCX=Yes
+D:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+D:\WINDOWS\system32\MSJET35.DLL=Yes
+D:\WINDOWS\system32\MSJTER35.DLL=Yes
+D:\WINDOWS\system32\MSJINT35.DLL=Yes
+D:\WINDOWS\system32\vbajet32.dll=Yes
+D:\WINDOWS\system32\expsrv.dll=Yes
+D:\WINDOWS\system32\MSRD2X35.DLL=Yes
+D:\WINDOWS\system32\MSREPL35.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+D:\WINDOWS\system32\VB5DB.DLL=Yes
+D:\WINDOWS\system32\MSEXCL35.DLL=Yes
+D:\WINDOWS\system32\MSRDO20.DLL=Yes
+D:\WINDOWS\system32\RDOCURS.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\WINDOWS\system32\MSTEXT35.DLL=Yes
+D:\WINDOWS\system32\MSXBSE35.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\WINDOWS\system32\scrrun.dll=Yes
+D:\WINDOWS\system32\msvcrt.dll=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\medical\medical.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+D:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+D:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+D:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+D:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+D:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\medical\medical.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Medical Application : ScriptoNova
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\medical\Package
+ProjectFolder=C:\medical
+ServerSideCab=
+File1=C:\medical\Package\setup.exe
+File2=C:\medical\Package\Setup.Lst
+File3=C:\medical\Package\medical.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=medical
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|medical]
+Icon1=medical.EXE
+Title1=medical
+StartIn1=$(AppPath)
+Key1=Icon1
