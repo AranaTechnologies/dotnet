@@ -1,0 +1,20 @@
+Line 16: Class MSComDlg.CommonDialog of control CommonDialog1 was not a loaded control class.
+Line 77: Class MSMAPI.MAPIMessages of control MAPIMessages1 was not a loaded control class.
+Line 89: Class MSMAPI.MAPISession of control MAPISession1 was not a loaded control class.
+Line 19: The property name _ExtentX in CommonDialog1 is invalid.
+Line 20: The property name _ExtentY in CommonDialog1 is invalid.
+Line 21: The property name _Version in CommonDialog1 is invalid.
+Line 80: The property name _ExtentX in MAPIMessages1 is invalid.
+Line 81: The property name _ExtentY in MAPIMessages1 is invalid.
+Line 82: The property name _Version in MAPIMessages1 is invalid.
+Line 83: The property name AddressEditFieldCount in MAPIMessages1 is invalid.
+Line 84: The property name AddressModifiable in MAPIMessages1 is invalid.
+Line 85: The property name AddressResolveUI in MAPIMessages1 is invalid.
+Line 86: The property name FetchSorted in MAPIMessages1 is invalid.
+Line 87: The property name FetchUnreadOnly in MAPIMessages1 is invalid.
+Line 92: The property name _ExtentX in MAPISession1 is invalid.
+Line 93: The property name _ExtentY in MAPISession1 is invalid.
+Line 94: The property name _Version in MAPISession1 is invalid.
+Line 95: The property name DownloadMail in MAPISession1 is invalid.
+Line 96: The property name LogonUI in MAPISession1 is invalid.
+Line 97: The property name NewSession in MAPISession1 is invalid.
